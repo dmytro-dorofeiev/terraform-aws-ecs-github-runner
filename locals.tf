@@ -22,15 +22,15 @@ locals {
         },
         {
           "name"  = "ORG"
-          "value" = "my-org"
+          "value" = var.github_org_name
         },
         {
           "name"  = "GITHUB_OWNER"
-          "value" = "ddorofeiev"
+          "value" = var.github_owner_name
         },
         {
           "name"  = "GITHUB_REPOSITORY"
-          "value" = "my-repo"
+          "value" = var.github_repository_name
         }
       ]
     }

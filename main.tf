@@ -48,12 +48,12 @@ resource "aws_iam_role_policy_attachment" "PowerUserAccess_attach" {
 module "autoscale" {
   source = "git::https://github.com/dmytro-dorofeiev/terraform-aws-autoscale-module"
 
-  service_name = "github-runner"
-  cluster_name = local.ecs_cluster_name
-  max_replicas = 5
-  min_replicas = 1
-  max_cpu_util = 60
-  scale_in_cpu_cooldown = 60
+  service_name           = "github-runner"
+  cluster_name           = local.ecs_cluster_name
+  max_replicas           = 5
+  min_replicas           = 1
+  max_cpu_util           = 60
+  scale_in_cpu_cooldown  = 60
   scale_out_cpu_cooldown = 60
 }
 

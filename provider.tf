@@ -11,14 +11,14 @@ terraform {
     }
   }
   # backend "s3" {
-    # encrypt        = true
-    # bucket         = "state-bucket"
-    # key            = "apps/github-runner.tfstate"
-    # region         = "eu-west-1"
-    # dynamodb_table = "terraform_state_lock"
+  # encrypt        = true
+  # bucket         = "state-bucket"
+  # key            = "apps/github-runner.tfstate"
+  # region         = "eu-west-1"
+  # dynamodb_table = "terraform_state_lock"
   # }
 }
 
 provider "aws" {
-  region  = "eu-west-1"
+  region = "eu-west-1"
 }
