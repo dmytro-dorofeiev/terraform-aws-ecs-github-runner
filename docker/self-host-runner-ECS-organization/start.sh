@@ -4,7 +4,7 @@ set -e
 ./config.sh \
   --url https://github.com/${ORG} \
   --token "${PAT}" \
-  --name "aws-runner" \
+  --name "$(hostname)" \
   --labels aws-runner \
   --unattended \
   --replace
