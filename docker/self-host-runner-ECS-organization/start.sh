@@ -5,7 +5,7 @@ set -e
   --url https://github.com/${ORG} \
   --token "${PAT}" \
   --name "$(hostname)" \
-  --labels aws-runner \
+  --labels "${LABEL}" \
   --unattended \
   --replace
 
