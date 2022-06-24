@@ -3,7 +3,7 @@ set -e
 
 ./config.sh \
   --url https://github.com/${ORG} \
-  --token "${PAT}" \
+  --pat "${PAT}" \
   --name "$(hostname)" \
   --labels "${LABEL}" \
   --unattended \
