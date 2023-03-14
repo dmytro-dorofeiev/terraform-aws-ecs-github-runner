@@ -1,7 +1,7 @@
 
 FROM ubuntu:20.04
 
-ARG VERSION=2.293.0
+ARG VERSION=2.303.0
 ENV DEBIAN_FRONTEND=noninteractive
 ENV RUNNER_ALLOW_RUNASROOT=true
 RUN echo "APT::Get::Assume-Yes \"true\";" > /etc/apt/apt.conf.d/90assumeyes

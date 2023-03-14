@@ -34,14 +34,14 @@ terraform apply
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.13 |
 | <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 3.0 |
-| <a name="requirement_sops"></a> [sops](#requirement\_sops) | ~> 0.6 |
+| <a name="requirement_sops"></a> [sops](#requirement\_sops) | >= 0.7 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 3.64.1 |
-| <a name="provider_sops"></a> [sops](#provider\_sops) | 0.6.3 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 3.76.1 |
+| <a name="provider_sops"></a> [sops](#provider\_sops) | 0.7.2 |
 
 ## Modules
 

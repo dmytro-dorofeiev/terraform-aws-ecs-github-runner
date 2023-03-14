@@ -7,6 +7,7 @@ set -e
   --name "$(hostname)" \
   --labels "${LABEL}" \
   --unattended \
-  --replace
+  --replace \
+  --ephemeral
 
 ./bin/runsvc.sh

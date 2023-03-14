@@ -7,7 +7,7 @@ terraform {
     }
     sops = {
       source  = "carlpett/sops"
-      version = "~> 0.6"
+      version = ">= 0.7"
     }
   }
   # backend "s3" {
